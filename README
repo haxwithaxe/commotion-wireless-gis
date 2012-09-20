@@ -1,0 +1,7 @@
+AP/node class: ap.py
+loads csv (semicolon delimiter by default) into a list of AP objects: data.py
+GIS and geograhic "constant" stuff: geo.py
+Map class which is the primary entry point: map.py
+Network (multiple AP's in a mesh regaurdless of overlap) class: net.py
+Tailored OSM xml API: osm.py
+#define type stuff related t wifi: wifiinfo.py
