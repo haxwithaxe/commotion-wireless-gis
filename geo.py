@@ -2,8 +2,8 @@
 
 from shapely.geometry import *
 
-class geo(object):
-	def __init__(self, lat, lon ,alt_m=0.0, radius_m=100):
+class Geo(object):
+	def __init__(self, lat=None, lon=None ,alt_m=0.0):
 		self.lat1_m = 111015.45481323975
 		self.lon1_m = None
 		self.datum = 'wgs84'

@@ -1,0 +1,634 @@
+<?xml version='1.0' encoding='utf-8'?>
+<osm generator="commotion-gis" version="0.6">
+	<bounds maxlat="0" maxlon="0" minlat="0" minlon="0" />
+	<way changeset="0" id="7774746609" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="area" v="yes" />
+		<tag k="signal-coverage-protocol-osi-2" v="802.11802.11g" />
+		<tag k="signal-coverage-quality" v="idealized" />
+		<tag k="signal-coverage-frequency-median-Hz" v="5055000" />
+		<nd ref="4215232619" />
+		<nd ref="1544004983" />
+		<nd ref="7958212036" />
+		<nd ref="9713667173" />
+		<nd ref="1780141682" />
+		<nd ref="6238247471" />
+		<nd ref="2597145964" />
+		<nd ref="8397736997" />
+		<nd ref="8186338531" />
+		<nd ref="9353776763" />
+		<nd ref="3531962609" />
+		<nd ref="5624364645" />
+		<nd ref="648898752" />
+		<nd ref="1734004936" />
+		<nd ref="3252155563" />
+		<nd ref="9439091967" />
+		<nd ref="3553266412" />
+		<nd ref="8770503072" />
+		<nd ref="5712623872" />
+		<nd ref="6296180488" />
+		<nd ref="7571158531" />
+		<nd ref="6445586041" />
+		<nd ref="2485111543" />
+		<nd ref="6050256259" />
+		<nd ref="6081481822" />
+		<nd ref="6973497054" />
+		<nd ref="8587419176" />
+		<nd ref="8402155974" />
+		<nd ref="3508412190" />
+		<nd ref="3419927826" />
+		<nd ref="9846980376" />
+		<nd ref="4330314457" />
+		<nd ref="416024895" />
+		<nd ref="6095432420" />
+		<nd ref="3297623505" />
+		<nd ref="669541363" />
+		<nd ref="579879324" />
+		<nd ref="288002914" />
+		<nd ref="5157849668" />
+		<nd ref="8912524931" />
+		<nd ref="4381953084" />
+		<nd ref="3844949328" />
+		<nd ref="1363218006" />
+		<nd ref="3918633468" />
+		<nd ref="2714879135" />
+		<nd ref="6763231349" />
+		<nd ref="5120391019" />
+		<nd ref="629722154" />
+		<nd ref="5725700037" />
+		<nd ref="2528322132" />
+		<nd ref="7294999312" />
+		<nd ref="191817861" />
+		<nd ref="6340644882" />
+		<nd ref="112430590" />
+		<nd ref="3702658788" />
+		<nd ref="3105622420" />
+		<nd ref="101905411" />
+		<nd ref="7260285561" />
+		<nd ref="7557445809" />
+		<nd ref="3252747321" />
+		<nd ref="7787905753" />
+		<nd ref="4590925896" />
+		<nd ref="927420265" />
+		<nd ref="9430553591" />
+		<nd ref="3520749200" />
+		<nd ref="9215459947" />
+		<nd ref="5420276253" />
+		<nd ref="5154034858" />
+		<nd ref="7591429645" />
+		<nd ref="8781741158" />
+		<nd ref="7793665675" />
+		<nd ref="249209060" />
+		<nd ref="1460553067" />
+		<nd ref="6468789428" />
+		<nd ref="6259565044" />
+		<nd ref="616425008" />
+		<nd ref="1729209150" />
+		<nd ref="1729209150" />
+	</way>
+	<node changeset="0" id="4215232619" lat="38.9993719699" lon="73.9992336446" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="1544004983" lat="38.9993714095" lon="73.9992340602" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7958212036" lat="38.9992993611" lon="73.9992993611" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9713667173" lat="38.9992340602" lon="73.9993714095" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="1780141682" lat="38.9991761358" lon="73.9994495116" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6238247471" lat="38.9991261456" lon="73.9995329151" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="2597145964" lat="38.9990845712" lon="73.999620817" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="8397736997" lat="38.9990518128" lon="73.9997123705" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="8186338531" lat="38.9990281859" lon="73.9998066942" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9353776763" lat="38.9990139182" lon="73.9999028794" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3531962609" lat="38.999009147" lon="74.0" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="5624364645" lat="38.9990139182" lon="74.0000971206" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="648898752" lat="38.9990281859" lon="74.0001933058" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="1734004936" lat="38.9990518128" lon="74.0002876295" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3252155563" lat="38.9990845712" lon="74.000379183" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9439091967" lat="38.9991261456" lon="74.0004670849" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3553266412" lat="38.9991761358" lon="74.0005504884" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="8770503072" lat="38.9992340602" lon="74.0006285905" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="5712623872" lat="38.9992993611" lon="74.0007006389" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6296180488" lat="38.9993714095" lon="74.0007659398" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7571158531" lat="38.9993719699" lon="74.0007663554" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6445586041" lat="38.9994111739" lon="74.0008492452" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="2485111543" lat="38.9995020651" lon="74.0010008881" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6050256259" lat="38.9996073823" lon="74.0011428918" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6081481822" lat="38.9997261111" lon="74.0012738889" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6973497054" lat="38.9998571082" lon="74.0013926177" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="8587419176" lat="38.9999991119" lon="74.0014979349" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="8402155974" lat="39.0001507548" lon="74.0015888261" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3508412190" lat="39.0003105763" lon="74.0016644161" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3419927826" lat="39.0004770374" lon="74.0017239768" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9846980376" lat="39.0006485348" lon="74.0017669347" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="4330314457" lat="39.0008234171" lon="74.001792876" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="416024895" lat="39.001" lon="74.001801551" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6095432420" lat="39.0011765829" lon="74.001792876" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3297623505" lat="39.0013514652" lon="74.0017669347" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="669541363" lat="39.0015229626" lon="74.0017239768" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="579879324" lat="39.0016894237" lon="74.0016644161" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="288002914" lat="39.0018492452" lon="74.0015888261" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="5157849668" lat="39.0020008881" lon="74.0014979349" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="8912524931" lat="39.0021428918" lon="74.0013926177" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="4381953084" lat="39.0022738889" lon="74.0012738889" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3844949328" lat="39.0023926177" lon="74.0011428918" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="1363218006" lat="39.0024979349" lon="74.0010008881" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3918633468" lat="39.0025888261" lon="74.0008492452" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="2714879135" lat="39.0026644161" lon="74.0006894237" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6763231349" lat="39.0027239768" lon="74.0005229626" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="5120391019" lat="39.0027669347" lon="74.0003514652" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="629722154" lat="39.002792876" lon="74.0001765829" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="5725700037" lat="39.002801551" lon="74.0" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="2528322132" lat="39.002792876" lon="73.9998234171" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7294999312" lat="39.0027669347" lon="73.9996485348" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="191817861" lat="39.0027239768" lon="73.9994770374" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6340644882" lat="39.0026644161" lon="73.9993105763" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="112430590" lat="39.0025888261" lon="73.9991507548" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3702658788" lat="39.0024979349" lon="73.9989991119" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3105622420" lat="39.0023926177" lon="73.9988571082" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="101905411" lat="39.0022738889" lon="73.9987261111" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7260285561" lat="39.0021428918" lon="73.9986073823" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7557445809" lat="39.0020008881" lon="73.9985020651" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3252747321" lat="39.0018492452" lon="73.9984111739" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7787905753" lat="39.0016894237" lon="73.9983355839" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="4590925896" lat="39.0015229626" lon="73.9982760232" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="927420265" lat="39.0013514652" lon="73.9982330653" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9430553591" lat="39.0011765829" lon="73.998207124" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3520749200" lat="39.001" lon="73.998198449" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9215459947" lat="39.0008234171" lon="73.998207124" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="5420276253" lat="39.0006485348" lon="73.9982330653" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="5154034858" lat="39.0004770374" lon="73.9982760232" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7591429645" lat="39.0003105763" lon="73.9983355839" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="8781741158" lat="39.0001507548" lon="73.9984111739" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7793665675" lat="38.9999991119" lon="73.9985020651" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="249209060" lat="38.9998571082" lon="73.9986073823" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="1460553067" lat="38.9997261111" lon="73.9987261111" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6468789428" lat="38.9996073823" lon="73.9988571082" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6259565044" lat="38.9995020651" lon="73.9989991119" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="616425008" lat="38.9994111739" lon="73.9991507548" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="1729209150" lat="38.9993719699" lon="73.9992336446" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<way changeset="0" id="6665042357" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="area" v="yes" />
+		<tag k="signal-coverage-protocol-osi-2" v="802.11802.11g" />
+		<tag k="signal-coverage-quality" v="idealized" />
+		<tag k="signal-coverage-frequency-median-Hz" v="5055000" />
+		<nd ref="3878732222" />
+		<nd ref="7136718836" />
+		<nd ref="6221477855" />
+		<nd ref="7877971671" />
+		<nd ref="7380418771" />
+		<nd ref="7903299407" />
+		<nd ref="89520976" />
+		<nd ref="1852277260" />
+		<nd ref="38314415" />
+		<nd ref="2699922968" />
+		<nd ref="3073296481" />
+		<nd ref="9059742258" />
+		<nd ref="6683257788" />
+		<nd ref="2935967942" />
+		<nd ref="7272967785" />
+		<nd ref="9698860965" />
+		<nd ref="6680873041" />
+		<nd ref="7302288948" />
+		<nd ref="9698447414" />
+		<nd ref="1545616610" />
+		<nd ref="7134156694" />
+		<nd ref="546815868" />
+		<nd ref="2662529903" />
+		<nd ref="7325034607" />
+		<nd ref="7807403031" />
+		<nd ref="2039958658" />
+		<nd ref="8910873028" />
+		<nd ref="602762271" />
+		<nd ref="2387604270" />
+		<nd ref="6251654011" />
+		<nd ref="6945770584" />
+		<nd ref="625464802" />
+		<nd ref="2475178056" />
+		<nd ref="1769600435" />
+		<nd ref="6535792236" />
+		<nd ref="958722430" />
+		<nd ref="4477396201" />
+		<nd ref="1494608946" />
+		<nd ref="9571544198" />
+		<nd ref="5190191663" />
+		<nd ref="3698027288" />
+		<nd ref="2767164047" />
+		<nd ref="1070615358" />
+		<nd ref="5027098421" />
+		<nd ref="8967036534" />
+		<nd ref="9414976208" />
+		<nd ref="3969726779" />
+		<nd ref="7648368576" />
+		<nd ref="8897136663" />
+		<nd ref="1821284970" />
+		<nd ref="3961704506" />
+		<nd ref="4115358248" />
+		<nd ref="9414703089" />
+		<nd ref="3656270550" />
+		<nd ref="5381781559" />
+		<nd ref="8906675055" />
+		<nd ref="7987915302" />
+		<nd ref="9726906762" />
+		<nd ref="3879225720" />
+		<nd ref="8097247599" />
+		<nd ref="2576384779" />
+		<nd ref="9163379018" />
+		<nd ref="3126824021" />
+		<nd ref="5535233679" />
+		<nd ref="6097155898" />
+		<nd ref="9207209410" />
+		<nd ref="6513689763" />
+		<nd ref="3860343637" />
+		<nd ref="4527268345" />
+		<nd ref="1160656285" />
+		<nd ref="295584837" />
+		<nd ref="3168577399" />
+		<nd ref="8508440531" />
+		<nd ref="1668698847" />
+		<nd ref="1504193017" />
+		<nd ref="2277720181" />
+		<nd ref="9365979733" />
+		<nd ref="9365979733" />
+	</way>
+	<node changeset="0" id="3878732222" lat="39.002801551" lon="74.0" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7136718836" lat="39.002792876" lon="73.9998234171" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6221477855" lat="39.0027669347" lon="73.9996485348" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7877971671" lat="39.0027239768" lon="73.9994770374" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7380418771" lat="39.0026644161" lon="73.9993105763" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7903299407" lat="39.0025888261" lon="73.9991507548" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="89520976" lat="39.0024979349" lon="73.9989991119" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="1852277260" lat="39.0023926177" lon="73.9988571082" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="38314415" lat="39.0022738889" lon="73.9987261111" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="2699922968" lat="39.0021428918" lon="73.9986073823" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3073296481" lat="39.0020008881" lon="73.9985020651" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9059742258" lat="39.0018492452" lon="73.9984111739" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6683257788" lat="39.0016894237" lon="73.9983355839" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="2935967942" lat="39.0015229626" lon="73.9982760232" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7272967785" lat="39.0013514652" lon="73.9982330653" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9698860965" lat="39.0011765829" lon="73.998207124" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6680873041" lat="39.001" lon="73.998198449" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7302288948" lat="39.0008234171" lon="73.998207124" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9698447414" lat="39.0006485348" lon="73.9982330653" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="1545616610" lat="39.0004770374" lon="73.9982760232" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7134156694" lat="39.0003105763" lon="73.9983355839" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="546815868" lat="39.0001507548" lon="73.9984111739" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="2662529903" lat="38.9999991119" lon="73.9985020651" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7325034607" lat="38.9998571082" lon="73.9986073823" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7807403031" lat="38.9997261111" lon="73.9987261111" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="2039958658" lat="38.9996073823" lon="73.9988571082" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="8910873028" lat="38.9995020651" lon="73.9989991119" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="602762271" lat="38.9994111739" lon="73.9991507548" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="2387604270" lat="38.9993719699" lon="73.9992336446" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6251654011" lat="38.9993714095" lon="73.9992340602" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6945770584" lat="38.9992993611" lon="73.9992993611" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="625464802" lat="38.9992340602" lon="73.9993714095" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="2475178056" lat="38.9991761358" lon="73.9994495116" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="1769600435" lat="38.9991261456" lon="73.9995329151" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6535792236" lat="38.9990845712" lon="73.999620817" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="958722430" lat="38.9990518128" lon="73.9997123705" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="4477396201" lat="38.9990281859" lon="73.9998066942" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="1494608946" lat="38.9990139182" lon="73.9999028794" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9571544198" lat="38.999009147" lon="74.0" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="5190191663" lat="38.9990139182" lon="74.0000971206" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3698027288" lat="38.9990281859" lon="74.0001933058" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="2767164047" lat="38.9990518128" lon="74.0002876295" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="1070615358" lat="38.9990845712" lon="74.000379183" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="5027098421" lat="38.9991261456" lon="74.0004670849" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="8967036534" lat="38.9991761358" lon="74.0005504884" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9414976208" lat="38.9992340602" lon="74.0006285905" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3969726779" lat="38.9992993611" lon="74.0007006389" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7648368576" lat="38.9993714095" lon="74.0007659398" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="8897136663" lat="38.9993719699" lon="74.0007663554" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="1821284970" lat="38.9994111739" lon="74.0008492452" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3961704506" lat="38.9995020651" lon="74.0010008881" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="4115358248" lat="38.9996073823" lon="74.0011428918" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9414703089" lat="38.9997261111" lon="74.0012738889" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3656270550" lat="38.9998571082" lon="74.0013926177" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="5381781559" lat="38.9999991119" lon="74.0014979349" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="8906675055" lat="39.0001507548" lon="74.0015888261" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="7987915302" lat="39.0003105763" lon="74.0016644161" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9726906762" lat="39.0004770374" lon="74.0017239768" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3879225720" lat="39.0006485348" lon="74.0017669347" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="8097247599" lat="39.0008234171" lon="74.001792876" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="2576384779" lat="39.001" lon="74.001801551" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9163379018" lat="39.0011765829" lon="74.001792876" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3126824021" lat="39.0013514652" lon="74.0017669347" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="5535233679" lat="39.0015229626" lon="74.0017239768" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6097155898" lat="39.0016894237" lon="74.0016644161" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9207209410" lat="39.0018492452" lon="74.0015888261" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="6513689763" lat="39.0020008881" lon="74.0014979349" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3860343637" lat="39.0021428918" lon="74.0013926177" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="4527268345" lat="39.0022738889" lon="74.0012738889" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="1160656285" lat="39.0023926177" lon="74.0011428918" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="295584837" lat="39.0024979349" lon="74.0010008881" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="3168577399" lat="39.0025888261" lon="74.0008492452" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="8508440531" lat="39.0026644161" lon="74.0006894237" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="1668698847" lat="39.0027239768" lon="74.0005229626" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="1504193017" lat="39.0027669347" lon="74.0003514652" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="2277720181" lat="39.002792876" lon="74.0001765829" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+	<node changeset="0" id="9365979733" lat="39.002801551" lon="74.0" timestamp="2012-09-21T02:32:59Z" uid="0" user="user" version="0" visible="true">
+		<tag k="altitude" v="13.0" />
+	</node>
+</osm>

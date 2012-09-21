@@ -1,7 +1,10 @@
 #!/usr/bin/env python2
 
-import geo
+import coordutil
+from geo import Geo
 from shapely.geometry import *
+
+geo = Geo()
 
 class AP(object):
 	def __init__(self, lat, lon ,alt_m=0.0, radius_m=100):
@@ -18,13 +21,4 @@ class AP(object):
 		p = Point(self.lat,self.lon,self.alt_m)
 		self.poly = p.buffer(radius)
 		c = self.poly.exterior.coords
-		self.cover_points = self._fix_coords(c)
-	
-	def _fix_coords(self, coords):
-		for c in coords:
-			c[2] = self.alt_m
-			if c[0] > 180: c[0] = 180-c[0]
-			elif c[0] < -180: c[0] = -180-c[0]
-			if c[1] > 90: c[1] = 90-c[1]
-			elif c[1] < -90: c[1] = -90-c[1]
-		return coords
+		self.cover_points = coordutil.fix(c, self.alt_m)

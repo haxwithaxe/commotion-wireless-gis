@@ -18,7 +18,7 @@ class Map(object):
 	def get_network(self):
 		for item in self.data:
 			if 'latitude' in item:
-				lat = float(item['latatude'])
+				lat = float(item['latitude'])
 			else:
 				continue
 			if 'longitude' in item:
@@ -33,21 +33,19 @@ class Map(object):
 				rad = int(item['radius'],10)
 			else:
 				rad = 100
-			self.ap_list += ap.AP(lat, lon, alt, rad)
+			self.ap_list.append(ap.AP(lat, lon, alt, rad))
 			self.ap_list[-1].get_cover()
 		self.net = net.Network(self.ap_list)
 
 	def to_xml(self):
 		self.net.get_intersecting()
 		self.net.get_cover()
-		print(self.net.coords)
 		for g in self.net.coords:
 			self.osm.polygon(g, tags=[])
 		self.osm.to_xml(self.output_filename)
 
 if __name__ == '__main__':
 	ap_data = data.read('example.csv')
-	print(ap_data)
-	map_obj = Map(ap_data, 'example', 0, 'user', 'user@example.com')
+	map_obj = Map(ap_data, 'example', '0', 'user', 'user@example.com')
 	map_obj.get_network()
 	map_obj.to_xml()

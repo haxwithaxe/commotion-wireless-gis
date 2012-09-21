@@ -1,6 +1,8 @@
 #!/usr/bin/env python2
 
+import copy
 import random
+import time
 import xml.etree.ElementTree as etree
 import wifiinfo
 
@@ -23,67 +25,62 @@ class OSM(object):
 		self.user = user
 		self.email = email
 		self.d_unit = 'm'
-		self.doc = etree.Element('osm')
+		self.doc = None
 		self.timestamp_fmt = '%Y-%m-%dT%H:%M:%SZ'
+		self.timestamp = self._get_timestamp()
 		self.changeset = '0'
 		self.id_len = 10
-		self.elems = []
 		self.feature_ids = []
 		self.signal_coverage_dict = SCDICT
+		self._xml_init()
+	
+	def _get_timestamp(self):
+		return time.strftime(self.timestamp_fmt)
 
 	def signal_coverage_tags(self):
 		tags = []
 		for k,v in self.signal_coverage_dict.items():
-			tags += {'k': 'signal-coverage-%s' % k, 'v':v}
+			tags.append({'k': 'signal-coverage-%s' % k, 'v':v})
 		return tags
 
-	@property
-	def uniq_iq(self):
-		id_num = _rand_uniq_id(self.id_len, self.feature_ids)
-		self.feature_ids += id_num
+	def uniq_id(self):
+		id_num = _random_uniq_id(self.id_len, self.feature_ids)
+		self.feature_ids.append(id_num)
 		return id_num
 
-	def to_xml(self, filename):
-		osm_attrib, bounds = self.xml_head()
-		self.doc.attrib = osm_attrib
-		self.doc.append(bounds)
-		for e in self.elems:
-			self.doc.append(e)
-			print(e)
-		etree.ElementTree(self.doc).write(filename, encoding='utf-8', xml_declaration=True, method='xml')
+	def to_xml(self, filename, encoding='utf-8'):
+		print(self.doc)
+		for c in self.doc:
+			print(c.tag, c.attrib)
+		etree.ElementTree(self.doc).write(filename, encoding=encoding, xml_declaration=True, method='xml')
 
 	def polygon(self, coords, **kwargs):
-		poly = []
 		point0 = None
-		way = etree.Element('way',
-				{'id':self.uniq_id,
+		way = etree.SubElement(self.doc, 'way')
+		way.attrib = {'id':self.uniq_id(),
 				'user':self.user,
 				'uid':self.uid,
-				'visible':True,
+				'visible':'true',
 				'version':'0', #version,
 				'changeset':self.changeset,
 				'timestamp':self.timestamp
 				}
-			)
-		kwargs['tags'] += {'k':'area','v':'yes'}
+		kwargs['tags'].append({'k':'area','v':'yes'})
 		kwargs['tags'] += self.signal_coverage_tags()
 		for tag in kwargs['tags']:
-			way.append(self.tag(tag))
+			self.tag(way, tag)
 		for p in coords:
 			args = copy.deepcopy(kwargs)
 			args['tags'] = []
-			point = self.point(p, kwargs)
-			way.append(self.ref(point))
-			poly += point
+			point = self.point(p, **args)
+			self.ref(way, point)
 			if coords.index(p) == 0: point0 = point
-		if point0: way.append(self.ref(point0))
-		poly += way
-		self.elems += poly
-		return poly
+		if len(point0):
+			self.ref(way, point0)
 
 	def point(self, coords, **kwargs):
-		point = etree.Element('node',
-				{'id':self.uniq_id,
+		point = etree.SubElement(self.doc, 'node',
+				{'id':self.uniq_id(),
 				'lat':str(coords[0]),
 				'lon':str(coords[1]),
 				'user':self.user,
@@ -95,22 +92,20 @@ class OSM(object):
 				}
 			)
 		args = copy.deepcopy(kwargs)
-		args['tags'] += {'k':'altitude', 'v': str(coords[2])}
+		args['tags'].append({'k':'altitude', 'v': str(coords[2])})
 		for tag in args['tags']:
-			point.append(self.tag(tag))
-		if 'add' in kwargs and kwargs['add']: self.elems += point
+			self.tag(point, tag)
 		return point
 
-	def tag(self, tag={'k':'','v':''}):
-		return etree.Element('tag', tag)
+	def tag(self, parent, tag):
+		etree.SubElement(parent, 'tag', tag)
 
-	def ref(self, point):
+	def ref(self, parent, point):
 		id_num = point.get('id')
-		ref = etree.Element('nd', {'ref':id_num})
-		return ref
+		etree.SubElement(parent,'nd', {'ref':id_num})
 
-	def xml_head(self):
-		bounds = etree.Element('bounds')
+	def _xml_init(self):
+		self.doc = etree.Element('osm')
+		bounds = etree.SubElement(self.doc, 'bounds')
 		bounds.attrib = {'minlat':'0', 'maxlat':'0', 'minlon':'0', 'maxlon':'0'}
-		osm_attrib = {'version':OSM_API_VERSION, 'generator':GENERATOR}
-		return osm_attrib, bounds
+		self.doc.attrib = {'version':OSM_API_VERSION, 'generator':GENERATOR}
